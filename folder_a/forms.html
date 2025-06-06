@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job application</title>
+    </head>
+    <body>
+        <form action="">
+           <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr>
+                    <td><label for="name">First name:</label></td>
+                    <td><input type="text" id="name" name="name" required placeholder="eg.Deekshitha"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Last name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="M"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date of birth:</label></td>
+                    <td><input type="date" id="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td><input type="Radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" id="others" name="gender">
+                    <label for="others">Others</label></td>
+                </tr>
+                <tr>
+                    <td> <label for="image">profile picture</label></td>
+                    <td><input type="file" id="image" name="image"></td>
+                </tr>
+
+            </table>
+            </fieldset>
+         <fieldset>
+
+            <legend>Contact Information</legend>
+            <table>
+            
+           <tr>
+           <td><label for="email">email:</label></td>
+           <td><input type="email" id="" name="" required placeholder="dee@gmail.com"></td>
+             </tr>
+             <tr>
+             <td><label for ="phone">Phone number:</label></td>
+             <td><input type="tel" required id="" name="" placeholder="9900643679"></td>
+             </tr>
+             <tr>
+                <td><label for="address">Address:</label></td>
+                <td><input type="text" id="" name=""></td>
+             </tr>
+             <tr>
+                <td><label for="country">country:</label></td>
+                <td><select id="country" name="country">
+                    <option value="india">india</option>
+                    <option value="usa">usa</option>
+                    <option value="uk">uk</option>
+                    <option value="canada">canada</option>
+                </select></td>
+             </tr>
+             </table>
+             
+             
+             </fieldset>
+             <fieldset>
+                 <legend>education information</legend>
+                 <table>
+                    <tr>
+                        <td><label for="text">highest qualification:</label></td>
+                        <td><select id="qualification" name="qualification">
+                    <option value="graduate">graduate</option>
+                    <option value="master">master</option>
+                    <option value="phd">phd</option></select></td>
+                    </tr>
+                <tr>
+                    <td><label for="text">specialization:</label></td>
+                    <td><input type="text" id="specialization" name="specialization"></td>
+
+                </tr>
+            <tr>
+                <td><label for ="year">year of graduation:</label></td>
+                <td><input type="number" id="year" name="year"></td>
+            </tr>
+                </table>
+                </fieldset>
+                <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
